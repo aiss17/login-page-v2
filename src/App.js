@@ -43,7 +43,7 @@ class App extends React.Component {
                       <img src={logo_sikom} width={150} height={150} />
                     </div>
                     {this.state.loginVisible && (
-                      <div className="col-lg-10 col-xl-7 mx-auto">
+                      <div className="text-center col-lg-10 col-xl-7 mx-auto">
                         <h2 className="display-4">Welcome!</h2>
                         <p className="text-muted mb-4">For those who are already registered, please login</p>
                         <form>
@@ -53,7 +53,7 @@ class App extends React.Component {
                             <div className="mb-3">
                               <input id="inputPassword" type="password" placeholder="Password" required="" className="form-control border-0 shadow-sm px-4" />
                             </div>
-                            <div className="form-check">
+                            <div className="text-left form-check" style={{marginBottom: 20, marginTop: 20}}>
                               <input id="customCheck1" type="checkbox" className="form-check-input" />
                               <label htmlFor="customCheck1" className="form-check-label">Remember password</label>
                             </div>
@@ -71,7 +71,7 @@ class App extends React.Component {
                     )}
 
                     {this.state.resetPasswordVisible && (
-                      <div className="col-lg-10 col-xl-7 mx-auto">
+                      <div className="text-center col-lg-10 col-xl-7 mx-auto">
                         <h2 className="display-4">Reset Password</h2>
                         <p className="text-muted mb-4">Enter the email address associated with your account and we'll send you a link to reset your password</p>
                         <form>
@@ -79,7 +79,7 @@ class App extends React.Component {
                               <input id="inputEmail" type="email" placeholder="Email address" required="" autoFocus="" className="form-control border-0 shadow-sm px-4" />
                             </div>
                             <div className="d-grid gap-2 mt-2">
-                              <button type="submit" className="btn btn-primary btn-block text-uppercase mb-2 shadow-sm">Sign in</button>
+                              <button type="submit" className="btn btn-primary btn-block text-uppercase mb-2 shadow-sm">Reset Password</button>
                             </div>
                             
                             <div className="text-center d-flex justify-content-center mt-4">
