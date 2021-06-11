@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.login,
+.image {
+  min-height: 100vh;
+}
+.bg-image {
+  background-image: url('./assets/images/img.jpeg');
+  background-size: cover;
+  background-position: center center;
+}
+#button {     
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;        
+}
+/* #back-login {     
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;        
+} */
